@@ -9,7 +9,7 @@ import MarquezMendoza_AlondraYolotzin_Ejercicio2 as Gen
 class tRNA(Gen.Gen):
 
     def funcion(self):
-        return "Transporta aminoácidos al ribosoma durante la traducción."
+        return "Transporta aminoacidos al ribosoma durante la traducción."
     
     def longitud(self):
         return self.longitud_sec() 
@@ -33,7 +33,7 @@ class RNA_no_codificante(Gen.Gen):
     
     def imprimir(self):
         return (f"ncRNA: {self.nombre}, Tipo: {self.tipo}, Función: {self.funcion()}, "
-                f"Longitud: {self.longitud_sec()} nucleótidos")
+                f"Longitud: {self.longitud_sec()} nucleotidos")
 
 class Proteina(tRNA):
     
@@ -49,8 +49,8 @@ class Proteina(tRNA):
     def imprimir(self):
         long = self.longitud()
         return (f"Proteína derivada de {self.nombre}, "
-                f"Nucleotidos: {long['nucleotidos']}, "
-                f"Aminoácidos: {long['aminoacidos']}")
+                f"Nucleotidos: {'nucleotidos'}, "
+                f"Aminoácidos: {'aminoacidos'}")
 
 # Instancia de tRNA
 trna2 = tRNA("tRNA-Met", "ATGCGTACGTTAG", "Cromosoma 3", "Mus musculus")

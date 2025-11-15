@@ -4,7 +4,7 @@ BioPython (2026-1)
 8/12/2025
 Descripcion: Script para buscar ORFs reales en una secuencia de DNA o RNA.
 Uso:
-    python buscar_orfs.py AGCCATGTAGCTAACTCAGGTTACATGGGGATGACCCCGCGACT
+    python MarquezMendoza_AlondraYolotzin_Ejercicio5.py AGCCATGTAGCTAACTCAGGTTACATGGGGATGACCCCGCGACT
 '''    
 
 from Bio.Seq import Seq
